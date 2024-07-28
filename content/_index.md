@@ -6,148 +6,59 @@ image:
     render_hook: True
     widths: [600, 720, 900, 1300, 1440]
     sizes: '(max-width: 1050px) 100vw, 1000px'
+    formats: [webp, original]
 ---
 
-{{< artfigure id=time-path-4 >}}
-{{< artlink imgSrc=time_path_4.jpg >}}
-![WRITE ALT TEXT](time_path_4.jpg)
+Hi _!_
+
+We’re ampersands — a small studio focused on [visual design](), [code](), and [illustration](). 
+
+We like working on [brands](), [websites](), [generative animation](), [music campaigns](), editorial illustrations, or anything we’ve never done before. Our main contributor is [andrew c. shike](https://andrewcs.life), based in chicago, and we love to collaborate.
+
+Get in touch at [andrewcshike@gmail.com](mailto:andrewcshike@gmail.com)
+
+This site is still being born, but in the meantime, you can check out some images of some work that we’re proud of below
+
+**-&&**
+
+{{< artfigure id=leaving-records >}}
+{{< artlink imgSrc=lr-feature.png >}}
+![WRITE ALT TEXT](lr-feature.png)
+{{< /artlink >}}
+{{< artlink imgSrc=lr-home.png >}}
+![WRITE ALT TEXT](lr-home.png)
+{{< /artlink >}}
+{{< artlink imgSrc=lr-spinosc.gif >}}
+![WRITE ALT TEXT](lr-spinosc.gif)
+{{< /artlink >}}
+{{< artlink imgSrc=lr-warp.gif >}}
+![WRITE ALT TEXT](lr-warp.gif)
 {{< /artlink >}}
 {{< artcaption >}}
-_time path 4_, 19 x 24”
+**PROJECT:** Web & animation for [leavingrecords](leavingrecords.com)
 
-inkjet, silkscreen, acrylic paint on cover weight paper, birch plywood & acrylic custom frame.
+**CONTRIBUTORS:** [andrew c. shike](andrewcs.life)
 {{< /artcaption >}}
 {{< /artfigure >}}
 
-{{< artfigure id=time-path-7 >}}
-{{< artlink imgSrc=time_path_7.jpg >}}
-![WRITE ALT TEXT](time_path_7.jpg)
+{{< artfigure id=aisha-vaughan >}}
+{{< artlink imgSrc=AV_front.png >}}
+![WRITE ALT TEXT](AV_front.png)
 {{< /artlink >}}
+{{< artlink imgSrc=AV_back.png >}}
+![WRITE ALT TEXT](AV_back.png)
+{{< /artlink >}}
+{{< artlink imgSrc=AV_digital.png >}}
+![WRITE ALT TEXT](AV_digital.png)
+{{< /artlink >}}
+{{< artlink imgSrc=AV_spine.png >}}
+![WRITE ALT TEXT](AV_spine.png)
+{{< /artlink >}}
+
+
 {{< artcaption >}}
-_time path 7_, 9.5 x 12”
+**PROJECT:** Art direction for Aisha Vaughan _"The Gate"_
 
-inkjet & silkscreen on cover weight paper, birch plywood & acrylic custom frame.
-{{< /artcaption >}}
-{{< /artfigure >}}
-
-{{< artfigure id=time-path-1 >}}
-{{< artlink imgSrc=time_path_1.jpg >}}
-![WRITE ALT TEXT](time_path_1.jpg)
-{{< /artlink >}}
-{{< artcaption >}}
-_time path 1_, 19 x 24”
-
-inkjet, silkscreen, acrylic paint, orange marker on cover weight paper, birch plywood & acrylic custom frame.
-{{< /artcaption >}}
-{{< /artfigure >}}
-
-{{< artfigure id=time-path-wrm-2 style=wide >}}
-{{< artlink imgSrc=time_path_wrm_2.jpg >}}
-![WRITE ALT TEXT](time_path_wrm_2.jpg)
-{{< /artlink >}}
-{{< artcaption >}}
-_time path wrm 2_, 8 x 6 x 4”
-
-PLA, acrylic paint
-{{< /artcaption >}}
-{{< /artfigure >}}
-
-{{< artfigure id=time-path-6 >}}
-{{< artlink imgSrc=time_path_6.jpg >}}
-![WRITE ALT TEXT](time_path_6.jpg)
-{{< /artlink >}}
-{{< artcaption >}}
-_time path 6_, 19 x 24”
-
-inkjet & silkscreen on cover weight paper, birch plywood & acrylic custom frame.
-{{< /artcaption >}}
-{{< /artfigure >}}
-
-{{< artfigure id=time-path-3 >}}
-{{< artlink imgSrc=time_path_3.jpg >}}
-![WRITE ALT TEXT](time_path_3.jpg)
-{{< /artlink >}}
-{{< artcaption >}}
-_time path 3_, 9.5 x 12”
-
-inket on cover weight paper, sumi ink on acrylic panel, plywood custom frame
-{{< /artcaption >}}
-{{< /artfigure >}}
-
-{{< artfigure id=time-path-wrm-1 style=wide >}}
-{{< artlink imgSrc=time_path_wrm_1.jpg >}}
-![WRITE ALT TEXT](time_path_wrm_1.jpg)
-{{< /artlink >}}
-{{< artlink imgSrc=time_path_wrm_1-2.jpg >}}
-![WRITE ALT TEXT](time_path_wrm_1-2.jpg)
-{{< /artlink >}}
-{{< artcaption >}}
-_time path wrm 1_, 6 x 6 x 4”
-
-PLA, acrylic paint
-{{< /artcaption >}}
-{{< /artfigure >}}
-
-{{< artfigure id=time-path-5 >}}
-{{< artlink imgSrc=time_path_5.jpg >}}
-![WRITE ALT TEXT](time_path_5.jpg)
-{{< /artlink >}}
-{{< artcaption >}}
-_time path 5_, 19 x 24”
-
-inkjet & spray paint on cover weight paper, birch plywood & acrylic custom frame.
-{{< /artcaption >}}
-{{< /artfigure >}}
-
-{{< artfigure id=time-path-9 style=wide >}}
-{{< artlink imgSrc=time_path_9.jpg >}}
-![WRITE ALT TEXT](time_path_9.jpg)
-{{< /artlink >}}
-{{< artlink imgSrc=time_path_9-2.jpg >}}
-![WRITE ALT TEXT](time_path_9-2.jpg)
-{{< /artlink >}}
-{{< artcaption >}}
-_time path 9_, 19 x 24”
-
-spray paint on laser engraved acrylic panel, inkjet on cover weight paper
-{{< /artcaption >}}
-{{< /artfigure >}}
-
-{{< artfigure id=time-path-2 >}}
-{{< artlink imgSrc=time_path_2.jpg >}}
-![WRITE ALT TEXT](time_path_2.jpg)
-{{< /artlink >}}
-{{< artcaption >}}
-_time path 2_, 19 x 24”
-
-inkjet, silkscreen, acrylic paint, cyan marker on cover weight paper, birch plywood & acrylic custom frame.
-{{< /artcaption >}}
-{{< /artfigure >}}
-
-{{< artfigure id=time-path-8 style=wide >}}
-{{< artlink imgSrc=time_path_8.jpg >}}
-![WRITE ALT TEXT](time_path_8.jpg)
-{{< /artlink >}}
-{{< artlink imgSrc=time_path_8-2.jpg >}}
-![WRITE ALT TEXT](time_path_8-2.jpg)
-{{< /artlink >}}
-{{< artcaption >}}
-_time path 8_, 19 x 24”
-
-spray paint on laser engraved acrylic panel, inkjet on cover weight paper
-{{< /artcaption >}}
-{{< /artfigure >}}
-
-{{< artfigure id=time-path-10 style=wide >}}
-{{< artlink imgSrc=time_path_10.jpg >}}
-![WRITE ALT TEXT](time_path_10.jpg)
-{{< /artlink >}}
-{{< artlink imgSrc=time_path_10-2.jpg >}}
-![WRITE ALT TEXT](time_path_10-2.jpg)
-{{< /artlink >}}
-{{< artcaption >}}
-_time path 10_, 19 x 24”
-
-spray paint on laser engraved acrylic panel, inkjet on cover weight paper
+**CONTRIBUTORS:** [andrew c. shike](andrewcs.life) (photography by Max Blomfield)
 {{< /artcaption >}}
 {{< /artfigure >}}

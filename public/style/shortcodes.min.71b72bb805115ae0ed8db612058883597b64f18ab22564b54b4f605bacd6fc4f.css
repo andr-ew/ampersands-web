@@ -1,1 +1,0 @@
-.artFigure{display:grid;grid-template-columns:1fr 720px 1fr;grid-template-rows:min-content;gap:50px;align-items:center}.artFigure img{grid-column:2/3;grid-row:1/2}.artFigure figcaption{grid-column:1/2;grid-row:1/2}

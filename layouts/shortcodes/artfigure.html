@@ -1,3 +1,12 @@
 <figure class="artFigure {{ .Get "style" }}" id="{{ .Get "id" }}">
     {{ .Inner }}
+    <div class="galleryButtons">
+        <button class="left" type="button">
+            <img alt="previous image" src="/images/arrow.svg" />
+        </button>
+        <p class="index">? / ?</p>
+        <button class="right" type="button">
+            <img alt="next image" src="/images/arrow.svg" />
+        </button>
+    </div>
 </figure>

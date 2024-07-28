@@ -2,17 +2,10 @@
 @import 'node_modules/photoswipe/dist/photoswipe';
 
 .fixedHeader {
-    h1 {
-        margin: 0;
-    }
-
-    img {
+    .logo {
         position: fixed;
         z-index: 3;
-
-        @include mobile {
-            transform: scale(calc(26 / 31));
-        }
+        mix-blend-mode: difference;
     }
 
     .center {
@@ -20,7 +13,8 @@
         transform: translateX(-50%);
 
         @include mobile {
-            transform: translateX(-50%) scale(calc(26 / 31));
+            transform-origin: top;
+            transform: translateX(-50%) scale(0.6);
         }
     }
 
@@ -42,7 +36,7 @@
 
     @include mobile {
         .top {
-            top: $home-margin-y-mobile + $summary-button-height-mobile;
+            top: $home-margin-y-mobile;
         }
 
         .bottom {
@@ -72,241 +66,23 @@
     }
 }
 
-.detailModal {
-    position: fixed;
-
-    z-index: 4;
-
-    summary {
-        list-style: none;
-        list-style-type: none;
-        cursor: pointer;
-
-        position: fixed;
-
-        @include desktop {
-            top: 50vh;
-        }
-        @include mobile {
-            top: 0;
-            height: $summary-button-height-mobile;
-        }
-
-        &::marker {
-            display: none;
-        }
-        &::-webkit-details-marker {
-            display: none;
-        }
-    }
-
-    .contentContainer {
-        color: $color-creme;
-
-        position: fixed;
-
-        @include desktop {
-            top: 0;
-            width: 75vw;
-            height: 100vh;
-            padding: 0 100px;
-        }
-        @include mobile {
-            top: $summary-button-height-mobile;
-            width: 100vw;
-            height: calc(100vh - 44px);
-            padding: 0 $home-margin-x-mobile;
-        }
-
-        .closeButton {
-            @include desktop {
-                position: absolute;
-                top: 45px;
-                right: 45px;
-            }
-            @include mobile {
-                position: fixed;
-                top: 10px;
-            }
-        }
-
-        .content {
-            height: 100%;
-            overflow-y: scroll;
-
-            @include desktop {
-                padding: 150px 0;
-
-                * {
-                    max-width: 720px;
-                }
-            }
-            @include mobile {
-                padding: 75px 0;
-            }
-        }
-    }
-
-    &.left {
-        summary {
-            left: 0;
-
-            @include desktop {
-                transform-origin: top left;
-                transform: rotate(-90deg) translateX(-50%);
-            }
-            @include mobile {
-                width: 50vw;
-
-                display: grid;
-                grid-template-columns: max-content 1fr;
-
-                .summaryImagesContainer {
-                    grid-column: 1 / 2;
-                }
-
-                &::after {
-                    content: '';
-
-                    grid-column: 2 / 3;
-                    background-color: $color-blue;
-                }
-            }
-        }
-
-        .contentContainer {
-            background-color: $color-blue;
-            background-image: url('/images/bg-info.svg');
-
-            @include desktop {
-                left: 0;
-            }
-        }
-
-        &[open] {
-            summary {
-                @include desktop {
-                    left: calc(75vw);
-                }
-            }
-            @include mobile {
-                .closeButton {
-                    left: 5px;
-                }
-                .summaryImagesContainer {
-                    background-color: $color-blue;
-                }
-                .summaryLabelButton {
-                    opacity: 0;
-                }
-            }
-        }
-    }
-
-    &.right {
-        summary {
-            right: 0;
-
-            @include desktop {
-                transform-origin: top right;
-                transform: rotate(90deg) translateX(50%);
-            }
-            @include mobile {
-                width: 50vw;
-
-                display: grid;
-                grid-template-columns: 1fr max-content;
-
-                .summaryImagesContainer {
-                    grid-column: 2 / 3;
-                }
-
-                &::before {
-                    content: '';
-
-                    grid-column: 1 / 2;
-                    background-color: $color-green;
-                }
-            }
-        }
-
-        .contentContainer {
-            background-color: $color-green;
-            background-image: url('/images/bg-prices.png');
-
-            @include desktop {
-                right: 0;
-            }
-        }
-
-        &[open] {
-            summary {
-                @include desktop {
-                    right: calc(75vw);
-                }
-            }
-            @include mobile {
-                .closeButton {
-                    right: 5px;
-                }
-                .summaryImagesContainer {
-                    background-color: $color-green;
-                }
-                .summaryLabelButton {
-                    opacity: 0;
-                }
-            }
-        }
-    }
-}
-
 .mainScroll {
-    background-image: url('/images/main-bg.jpg');
-    background-size: contain;
-    background-repeat: repeat-y;
-
-    background-color: rgba(255, 255, 255, 0.2);
-    background-blend-mode: lighten;
-
     margin: 0;
 
-    .heroWrm {
-        position: relative;
-
-        z-index: 2;
-
-        width: 100% !important;
-        height: 100svh !important;
-    }
-
-    .scrollArrow {
-        position: absolute;
-        margin: 0;
-
-        left: 50%;
-
-        // bottom: calc(100% - 100vh + 13px);
-        // bottom: calc(100% - 100svh + 13px);
-
-        top: 100svh;
-        transform: translate(-50%, -100%);
-        padding-bottom: 13px;
-
-        @include mobile {
-            transform: translate(-50%, -100%) scale(calc(12 / 14));
-            transform-origin: bottom center;
+    .contentContainer {
+        > p {
+            max-width: $main-width-desktop;
+            margin: auto;
         }
-    }
 
-    .artContainer {
         @include desktop {
-            margin-top: 200px;
-            padding: 0 75px;
+            padding: 0 30px;
+            padding-top: 275px;
         }
 
         @include mobile {
-            margin-top: 75px;
             padding: 0 $home-margin-x-mobile + 2px;
+            padding-top: 150px;
         }
     }
 }

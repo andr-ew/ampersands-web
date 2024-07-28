@@ -2,25 +2,11 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Site</title>
-    <link>http://192.168.0.14:3000/</link>
+    <link>http://192.168.0.11:3000/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Apr 2024 16:44:10 -0500</lastBuildDate>
-    <atom:link href="http://192.168.0.14:3000/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Prices</title>
-      <link>http://192.168.0.14:3000/pages/prices/</link>
-      <pubDate>Tue, 30 Apr 2024 16:44:10 -0500</pubDate>
-      <guid>http://192.168.0.14:3000/pages/prices/</guid>
-      <description>time path 4 1 of 1 $250 time path 7 ed. of 2 $100 time path 1 1 of 1 $200 time path wrm 2 ed. of 3 $75 time path 6 1 of 1 $250 time path 3 1 of 1 $100 time path wrm 1 ed. of 3 $75 time path 5 1 of 1 $200 time path 9 1 of 1 $100 time path 2 1 of 1 $200 time path 8 1 of 1 $100 time path 10 1 of 1 $100 buyer pays shipping – to purchase or for any questions please reach me at andrewcshike@gmail.</description>
-    </item>
-    <item>
-      <title>Info</title>
-      <link>http://192.168.0.14:3000/pages/info/</link>
-      <pubDate>Mon, 29 Apr 2024 11:39:23 -0500</pubDate>
-      <guid>http://192.168.0.14:3000/pages/info/</guid>
-      <description>I read once that the human mind never runs out of storage space &amp;ndash; we forget only what we cannot retrieve. “caught in pointers” is an exhibition of digital print + analog silkscreen based paintings, 3d-scanned &amp;amp; printed sculptures, and painted laser engravings by Andrew CS — created in parallel to their debut album of the same name.&#xA;pointers (*) index the world in RAM - we carry them in pockets &amp;amp; phone cases &amp;amp; microphones.</description>
-    </item>
+    <lastBuildDate></lastBuildDate>
+    <atom:link href="http://192.168.0.11:3000/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

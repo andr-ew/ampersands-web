@@ -1,41 +1,94 @@
 @import 'assets/style/_variables';
 
 .artFigure {
+    margin-top: 60px;
+
     figcaption * {
         margin: 0;
     }
 
-    @include desktop {
-        display: grid;
-        gap: 50px;
+    .artLink {
+        width: 0;
+        position: relative;
 
-        &:not(.wide) {
-            grid-template-columns: 1fr 720px 1fr;
-            grid-template-rows: min-content;
+        background-color: #373737;
+
+        &[visible] {
+            width: 100%;
+        }
+
+        &::after {
+            content: '';
+            display: block;
+            padding-bottom: 100%;
+        }
+
+        & > div {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+
+            display: flex;
+            justify-content: center;
             align-items: center;
 
-            .img-wrapper {
-                grid-column: 2 / 3;
-                grid-row: 1 / 2;
+            img,
+            picture {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
             }
+        }
+    }
 
-            figcaption {
-                grid-column: 1 / 2;
-                grid-row: 1 / 2;
+    // .img-wrapper {
+    //     width: 100%;
+    //     height: 100%;
+    // }
+
+    .galleryButtons {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        button {
+            &.right {
+                img {
+                    transform: rotate(180deg);
+                }
             }
         }
 
-        &.wide {
-            grid-template-columns: 1fr;
-            justify-items: center;
+        .index {
+            font-family: 'Space Mono', monospace;
+            font-weight: normal;
+            font-size: 16px;
+            text-transform: uppercase;
+        }
+    }
 
-            .img-wrapper {
-                max-width: 1000px;
-            }
+    @include desktop {
+        display: grid;
+        column-gap: 50px;
+        row-gap: 30px;
 
-            figcaption {
-                text-align: center;
-            }
+        grid-template-columns: 1fr $main-width-desktop 1fr;
+        grid-template-rows: min-content min-content;
+        align-items: center;
+
+        figcaption {
+            grid-column: 1 / 2;
+            grid-row: 1 / 2;
+        }
+
+        > *:not(figcaption) {
+            grid-column: 2 / 3;
+            grid-row: 1 / 2;
+        }
+
+        .galleryButtons {
+            grid-column: 2 / 3;
+            grid-row: 2 / 3;
         }
 
         margin-bottom: 200px;
@@ -43,12 +96,31 @@
     @include mobile {
         margin-bottom: 100px;
 
-        .img-wrapper {
-            margin-bottom: 16px;
+        figcaption {
+            width: 275px;
+        }
+
+        display: grid;
+        row-gap: 30px;
+
+        grid-template-columns: 1fr;
+        grid-template-rows: min-content min-content min-content;
+        align-items: center;
+
+        > * {
+            grid-column: 1 / 2;
         }
 
         figcaption {
-            width: 275px;
+            grid-row: 3 / 4;
+        }
+
+        > *:not(figcaption) {
+            grid-row: 1 / 2;
+        }
+
+        .galleryButtons {
+            grid-row: 2 / 3;
         }
     }
 }

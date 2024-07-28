@@ -1,5 +1,5 @@
 {
-    "name": "cip-web",
+    "name": "ampersands-web",
     "version": "0.0.1",
     "description": "",
     "main": "index.js",
@@ -22,7 +22,6 @@
         "scss-reset": "^1.4.2"
     },
     "dependencies": {
-        "photoswipe": "^5.4.3",
-        "three": "^0.163.0"
+        "photoswipe": "^5.4.3"
     }
 }

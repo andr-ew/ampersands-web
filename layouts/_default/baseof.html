@@ -4,12 +4,23 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-        <title>CiP: The Exhibition</title>
+        <title>studio ampersands</title>
         {{ partial "stylesheet" (dict "href" "style/global.scss") }}
         {{ partial "stylesheet" (dict "href" "style/shortcodes.scss") }}
     </head>
     <body>
         {{ block "body" . }}
         {{ end }}
+        <div class="bodyBackground">
+            <div
+                class="img left"
+                style="background-image: url('/images/bg_left.png.jpg')"
+            ></div>
+            <div class="verticalRule"></div>
+            <div
+                class="img right"
+                style="background-image: url('/images/bg_right.png.jpg')"
+            ></div>
+        </div>
     </body>
 </html>

@@ -5,15 +5,68 @@
     scroll-behavior: smooth;
 }
 
+.bodyBackground {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100%;
+    z-index: 0;
+
+    overflow-y: hidden;
+
+    display: grid;
+    grid-template-columns: 1fr $vertical-rule-gap 1fr;
+    justify-content: center;
+    align-items: center;
+
+    .img {
+        width: 100%;
+        height: 100%;
+        background-position: top;
+        background-size: cover;
+        background-repeat: repeat-y;
+    }
+
+    .verticalRule {
+        height: 120%;
+        width: 100%;
+        border: solid #bdbebe 1.5px;
+    }
+}
+
+main {
+    z-index: 1;
+    position: relative;
+}
+
 body {
     margin: 0;
 
-    background-color: #e7e7e7;
+    background-color: #f0f0f0;
+
+    background-blend-mode: lighten;
 }
 
 @font-face {
-    font-family: 'PP Mondwest';
-    src: url('/fonts/PPMondwest-Regular.otf') format('opentype');
+    font-family: 'Hershey-Noailles';
+    src: url('/fonts/Hershey-Noailles-OldFrench-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Hershey-Noailles';
+    src: url('/fonts/Hershey-Noailles-Times-Triplex-Italic-Regular.ttf')
+        format('truetype');
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Hershey-Noailles';
+    src: url('/fonts/Hershey-Noailles-Times-Mono-Regular.ttf')
+        format('truetype');
+    font-weight: bold;
 }
 
 @font-face {
@@ -22,8 +75,8 @@ body {
 }
 
 @font-face {
-    font-family: 'Libre Baskerville';
-    src: url('/fonts/LibreBaskerville-Italic.ttf') format('truetype');
+    font-family: 'Avara';
+    src: url('/fonts/Avara-BoldItalic.otf') format('opentype');
     font-style: italic;
 }
 
@@ -33,45 +86,62 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: 'PP Mondwest', serif;
-    font-weight: 400;
-    font-style: normal;
-
-    font-size: 60px;
-    margin-bottom: 50px;
-
     @include mobile {
-        font-size: 52px;
     }
 }
 
 p {
-    font-family: 'Space Mono', monospace;
+    text-transform: lowercase;
+
+    font-family: 'Hershey-Noailles', serif;
     font-weight: 400;
     font-style: normal;
     line-height: 110%;
 
-    font-size: 15px;
-    margin-bottom: 20px;
+    font-size: 21px;
+    margin-bottom: 1lh !important;
 
     @include mobile {
-        font-size: 14px;
+        font-size: 20px;
     }
 
     text-underline-offset: 2px;
 
-    em,
-    strong,
-    a {
-        font-family: 'Libre Baskerville', serif;
+    a:any-link {
+        font-family: 'Avara', serif;
+        font-style: italic;
+        text-decoration: underline;
+        font-size: 16px;
+
+        @include mobile {
+            font-size: 15px;
+        }
+    }
+
+    strong {
+        font-weight: bold;
+        font-size: 26px;
+    }
+
+    em {
         font-style: italic;
     }
 }
 
 figure {
-    * {
-        font-size: 13px;
-        // margin-bottom: 15px;
+    p {
+        margin-bottom: 0 !important;
+    }
+
+    strong {
+        font-family: 'Space Mono', monospace;
+        font-weight: normal;
+        font-size: 16px;
+        text-transform: uppercase;
+
+        @include mobile {
+            font-size: 15px;
+        }
     }
 }
 

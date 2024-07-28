@@ -1,7 +1,5 @@
 {{ define "body" }}
     {{ partial "stylesheet" (dict "href" "style/home.scss") }}
-    {{ partial "script" (dict "src" "js/home/main.js") }}
-    {{ partial "script" (dict "src" "js/home/wrms.js") }}
     <link
         rel="stylesheet"
         href="/node_modules/photoswipe/dist/photoswipe.css"
@@ -9,46 +7,16 @@
     <header>
         <div class="fixedHeader">
             <img
-                class="top center"
-                src="/images/os_logo.svg"
-                alt="the open space logo"
+                class="logo top center"
+                src="/images/&&_logo.svg"
+                alt="the ampersands logo - two typewriter style '&' symbols in a dance"
             />
-            <h1 aria-label="caught in pointers">
-                <div aria-hidden="true">
-                    <img class="top left" src="/images/header_top_left.svg" />
-                    <img class="top right" src="/images/header_top_right.svg" />
-                    <img
-                        class="bottom left"
-                        src="/images/header_bottom_left.svg"
-                    />
-                    <img
-                        class="bottom right"
-                        src="/images/header_bottom_right.svg"
-                    />
-                </div>
-            </h1>
         </div>
-        {{ partial "detailmodal" (
-            dict "ctx" .
-            "side" "left"
-            "pagePath" "/pages/info"
-            "buttonPath" "/images/info-button.svg"
-            )
-        }}
-        {{ partial "detailmodal" (
-            dict "ctx" .
-            "side" "right"
-            "pagePath" "/pages/prices"
-            "buttonPath" "/images/prices-button.svg"
-            )
-        }}
     </header>
     <main class="mainScroll">
-        <p class="scrollArrow">
-            <img src="/images/scroll.svg" alt="scroll to view more content" />
-        </p>
-        <section class="artContainer" id="ps-gallery--home">
+        <section class="contentContainer" id="ps-gallery--home">
             {{ .Content }}
         </section>
     </main>
+    {{ partial "script" (dict "src" "js/home/main.js") }}
 {{ end }}

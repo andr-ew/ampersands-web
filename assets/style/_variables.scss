@@ -4,11 +4,15 @@ $home-margin-x-desktop: 16px;
 $home-margin-y-mobile: 12px;
 $home-margin-x-mobile: 7px;
 
+$main-width-desktop: 720px;
+
 $summary-button-height-mobile: 44px;
 
 $color-blue: #5868f5;
 $color-green: #37a777;
 $color-creme: #ebebeb;
+
+$vertical-rule-gap: 6px;
 
 @mixin mobile {
     @media (max-width: 1050px) {

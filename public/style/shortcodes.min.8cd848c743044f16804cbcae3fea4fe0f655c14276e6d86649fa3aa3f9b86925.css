@@ -1,1 +1,0 @@
-.artFigure{display:grid;grid-template-columns:1fr 720px 1fr;grid-template-rows:min-content}.artFigure img{grid-column:2/3}.artFigure figcaption{grid-column:1/2}

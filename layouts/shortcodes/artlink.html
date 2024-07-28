@@ -8,7 +8,9 @@
         data-pswp-height="{{ $img.Height }}"
         target="_blank"
     >
-        {{ .Inner | markdownify }}
+        <div>
+            {{ .Inner | markdownify }}
+        </div>
     </a>
 {{ else }}
     <p>image not found: {{ $src }}</p>
