@@ -9,17 +9,36 @@ image:
     formats: [webp, original]
 ---
 
-Hi _!_
+Studio Ampersands is the independent design practice of [andrew c. shike](https://and-cs.co) – focused on [visual design](#pulse), [code](#leaving-records), and [illustration](#julius-smack-serenity). 
 
-We’re ampersands — a small studio focused on [visual design](#md-uncleared), [code](#leaving-records), and [illustration](#julius-smack-serenity). 
+I like working on [brands](#ambient-church), [websites](#leaving-records), [generative animation](#staying), [music campaigns](#aisha-vaughan), editorial illustrations, or anything I've never done before. Currently based in Chicago.
 
-We like working on [brands](#ambient-church), [websites](#cps-lives), [generative animation](#leaving-records), [music campaigns](#aisha-vaughan), editorial illustrations, or anything we’ve never done before. Our main contributor is [andrew c. shike](https://andrewcs.life), based in chicago, and we love to collaborate.
+Get in touch at [hi@ampersands.space](mailto:hi@ampersands.space)
 
-Get in touch at [andrewcshike@gmail.com](mailto:andrewcshike@gmail.com)
-
-This site is still being born, but in the meantime, you can check out some images of some work that we’re proud of below
+This site is still being born, but in the meantime, you can check out some images of work that I'm proud of below
 
 **-&&**
+
+{{< artfigure id=staying >}}
+{{< artlink imgSrc=staying_ARTWORK.png >}}
+![WRITE ALT TEXT](staying_ARTWORK.png)
+{{< /artlink >}}
+{{< artlink imgSrc=staying_Frame79.png >}}
+![WRITE ALT TEXT](staying_Frame79.png)
+{{< /artlink >}}
+{{< artlink imgSrc=staying_Frame83.png >}}
+![WRITE ALT TEXT](staying_Frame83.png)
+{{< /artlink >}}
+{{< artlink imgSrc=staying_Frame77.png >}}
+![WRITE ALT TEXT](staying_Frame77.png)
+{{< /artlink >}}
+{{< artcaption >}}
+**PROJECT:** AD & [music video](https://www.youtube.com/watch?v=djQhHlXM6SA) for leaving records "staying" compilation
+
+**CONTRIBUTORS:** [andrew c. shike](https://and-cs.co) (graphics) [erran franklin](instagram.com/errenfranklinfilms) (8mm film)
+{{< /artcaption >}}
+{{< /artfigure >}}
+
 
 {{< artfigure id=aisha-vaughan >}}
 {{< artlink imgSrc=AV_digital.png >}}
@@ -40,7 +59,7 @@ This site is still being born, but in the meantime, you can check out some image
 {{< artcaption >}}
 **PROJECT:** Art direction for Aisha Vaughan _"The Gate"_
 
-**CONTRIBUTORS:** [andrew c. shike](https://andrewcs.life) (photography by Max Blomfield)
+**CONTRIBUTORS:** [andrew c. shike](https://and-cs.co) (photography by Max Blomfield)
 {{< /artcaption >}}
 {{< /artfigure >}}
 
@@ -61,7 +80,7 @@ This site is still being born, but in the meantime, you can check out some image
 {{< artcaption >}}
 **PROJECT:** Web & animation for leavingrecords ([website](leavingrecords.com))
 
-**CONTRIBUTORS:** [andrew c. shike](https://andrewcs.life)
+**CONTRIBUTORS:** [andrew c. shike](https://and-cs.co)
 {{< /artcaption >}}
 {{< /artfigure >}}
 
@@ -78,7 +97,7 @@ This site is still being born, but in the meantime, you can check out some image
 {{< artcaption >}}
 **PROJECT:** Illustration, AD, and poster for Julius Smack _"Serenity"_
 
-**CONTRIBUTORS:** [andrew c. shike](https://andrewcs.life)
+**CONTRIBUTORS:** [andrew c. shike](https://and-cs.co)
 {{< /artcaption >}}
 {{< /artfigure >}}
 
@@ -101,7 +120,7 @@ This site is still being born, but in the meantime, you can check out some image
 {{< artcaption >}}
 **PROJECT:** Art direction for The Growth Eternal _"Live at Susan's"_
 
-**CONTRIBUTORS:** [andrew c. shike](https://andrewcs.life). photography: friends
+**CONTRIBUTORS:** [andrew c. shike](https://and-cs.co). photography: friends
 {{< /artcaption >}}
 {{< /artfigure >}}
 
@@ -118,7 +137,27 @@ This site is still being born, but in the meantime, you can check out some image
 {{< artcaption >}}
 **PROJECT:** Art direction for Matthewdavid _"Uncleared"_
 
-**CONTRIBUTORS:** [andrew c. shike](https://andrewcs.life). illustration: BlissArmyKnife
+**CONTRIBUTORS:** [andrew c. shike](https://and-cs.co). illustration: BlissArmyKnife
+{{< /artcaption >}}
+{{< /artfigure >}}
+
+{{< artfigure id=pulse >}}
+{{< artlink imgSrc=QS_Frame50.png >}}
+![WRITE ALT TEXT](QS_Frame50.png)
+{{< /artlink >}}
+{{< artlink imgSrc=QS_Frame63.png >}}
+![WRITE ALT TEXT](QS_Frame63.png)
+{{< /artlink >}}
+{{< artlink imgSrc=QS_Frame59.png >}}
+![WRITE ALT TEXT](QS_Frame59.png)
+{{< /artlink >}}
+{{< artlink imgSrc=QS_Frame56.png >}}
+![WRITE ALT TEXT](QS_Frame56.png)
+{{< /artlink >}}
+{{< artcaption >}}
+**PROJECT:** Art direction for Qur'an Shaheed _"Pulse"_
+
+**CONTRIBUTORS:** [andrew c. shike](https://and-cs.co), artwork by Frank Dorrey
 {{< /artcaption >}}
 {{< /artfigure >}}
 
@@ -136,7 +175,7 @@ This site is still being born, but in the meantime, you can check out some image
 {{< artcaption >}}
 **PROJECT:** Wordmark + posters commissioned by [ambient church](https://ambient.church)
 
-**CONTRIBUTORS:** [andrew c. shike](https://andrewcs.life)
+**CONTRIBUTORS:** [andrew c. shike](https://and-cs.co)
 {{< /artcaption >}}
 {{< /artfigure >}}
 {{< artfigure id=andrew-cs-cip >}}
@@ -176,7 +215,7 @@ This site is still being born, but in the meantime, you can check out some image
 {{< artcaption >}}
 **PROJECT:** Artwork, AD, & posters for Andrew CS _"caught in pointers"_
 
-**CONTRIBUTORS:** [andrew c. shike](https://andrewcs.life)
+**CONTRIBUTORS:** [andrew c. shike](https://and-cs.co)
 {{< /artcaption >}}
 {{< /artfigure >}}
 
@@ -193,7 +232,7 @@ This site is still being born, but in the meantime, you can check out some image
 {{< artcaption >}}
 **PROJECT:** Identity concept (1/2) commissioned by Ry X
 
-**CONTRIBUTORS:** [andrew c. shike](https://andrewcs.life)
+**CONTRIBUTORS:** [andrew c. shike](https://and-cs.co)
 {{< /artcaption >}}
 {{< /artfigure >}}
 
@@ -211,7 +250,7 @@ This site is still being born, but in the meantime, you can check out some image
 {{< artcaption >}}
 **PROJECT:** Identity concept (2/2) commissioned by Ry X
 
-**CONTRIBUTORS:** [andrew c. shike](https://andrewcs.life)
+**CONTRIBUTORS:** [andrew c. shike](https://and-cs.co)
 {{< /artcaption >}}
 {{< /artfigure >}}
 
@@ -225,7 +264,7 @@ This site is still being born, but in the meantime, you can check out some image
 {{< artcaption >}}
 **PROJECT:** Website for CPS Lives ([link](https://cpslives.org))
 
-**CONTRIBUTORS:** [Nick Rissmeyer](https://nickrissmeyer.com/), [Emily Gorski](http://emilygorski.com/), [andrew c. shike](https://andrewcs.life)
+**CONTRIBUTORS:** [Nick Rissmeyer](https://nickrissmeyer.com/), [Emily Gorski](http://emilygorski.com/), [andrew c. shike](https://and-cs.co)
 {{< /artcaption >}}
 {{< /artfigure >}}
 
