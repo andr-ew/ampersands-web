@@ -51,6 +51,11 @@
         justify-content: space-between;
         align-items: center;
 
+        @include desktop {
+            width: $main-width-desktop;
+            max-width: 100%;
+        }
+
         button {
             width: 30px;
 
@@ -74,23 +79,63 @@
         column-gap: 50px;
         row-gap: 30px;
 
-        grid-template-columns: 1fr $main-width-desktop 1fr;
-        grid-template-rows: min-content min-content;
-        align-items: center;
+        &:not(.wide) {
+            grid-template-columns: 1fr $main-width-desktop 1fr;
+            grid-template-rows: min-content min-content;
+            align-items: center;
 
-        figcaption {
-            grid-column: 1 / 2;
-            grid-row: 1 / 2;
+            figcaption {
+                grid-column: 1 / 2;
+                grid-row: 1 / 2;
+            }
+
+            > *:not(figcaption) {
+                grid-column: 2 / 3;
+                grid-row: 1 / 2;
+            }
+
+            .galleryButtons {
+                grid-column: 2 / 3;
+                grid-row: 2 / 3;
+            }
         }
 
-        > *:not(figcaption) {
-            grid-column: 2 / 3;
-            grid-row: 1 / 2;
-        }
+        &.wide {
+            .artLink,
+            .artLink > div {
+                max-width: 1000px;
+            }
+            .artLink {
+                &::after {
+                    content: '';
+                    display: block;
+                    padding-bottom: calc(calc(1800 / 2880) * 100%);
+                }
 
-        .galleryButtons {
-            grid-column: 2 / 3;
-            grid-row: 2 / 3;
+                img,
+                picture {
+                    width: 100%;
+                    height: 100%;
+                    // object-fit: cover;
+                }
+
+                img {
+                    padding: 50px;
+                }
+            }
+
+            grid-template-columns: 1fr;
+            justify-items: center;
+            gap: 0;
+
+            figcaption {
+                text-align: center;
+            }
+
+            figcaption,
+            .galleryButtons {
+                padding-top: 30px;
+            }
         }
 
         margin-bottom: 200px;
@@ -123,6 +168,14 @@
 
         .galleryButtons {
             grid-row: 2 / 3;
+        }
+
+        &.wide {
+            .artLink {
+                img {
+                    padding: 20px;
+                }
+            }
         }
     }
 }

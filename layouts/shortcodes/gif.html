@@ -1,0 +1,10 @@
+{{ $src := .Get "imgSrc" }}
+{{ $alt := .Get "imgAlt" }}
+{{ $img := .Page.Resources.GetMatch $src }}
+{{ if $img }}
+    <div class="img-wrapper">
+        <img src="{{ $img.RelPermalink }}" alt="{{ $alt }}" />
+    </div>
+{{ else }}
+    <p>image not found: {{ $src }}</p>
+{{ end }}

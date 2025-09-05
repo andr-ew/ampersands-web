@@ -1,5 +1,6 @@
 {{ $src := .Get "imgSrc" }}
 {{ $img := .Page.Resources.GetMatch $src }}
+{{ $html := .Get "html" }}
 {{ if $img }}
     <a
         class="artLink"
@@ -9,7 +10,11 @@
         target="_blank"
     >
         <div>
-            {{ .Inner | markdownify }}
+            {{ if $html }}
+                {{ .Inner }}
+            {{ else }}
+                {{ .Inner | markdownify }}
+            {{ end }}
         </div>
     </a>
 {{ else }}

@@ -9,7 +9,7 @@ image:
     formats: [webp, original]
 ---
 
-Studio Ampersands is the independent design practice of [andrew c. shike](https://and-cs.co) – focused on [visual design](#pulse), [code](#leaving-records), and [illustration](#julius-smack-serenity). 
+Studio Ampersands is the independent design practice of [andrew c. shike](https://and-cs.co) – focused on [visual design](#pulse), [UX](#aips), [code](#leaving-records), and [illustration](#julius-smack-serenity).
 
 I like working on [brands](#ambient-church), [websites](#leaving-records), [generative animation](#staying), [music campaigns](#aisha-vaughan), editorial illustrations, or anything I've never done before. Currently based in Chicago.
 
@@ -20,6 +20,9 @@ This site is still being born, but in the meantime, you can check out some image
 **-&&**
 
 {{< artfigure id=staying >}}
+{{< artlink imgSrc=staying_gifffy.gif html=true >}}
+{{< gif imgSrc=staying_gifffy.gif imgAlt="animation of fields and leaves and record and tape" >}}
+{{< /artlink >}}
 {{< artlink imgSrc=staying_ARTWORK.png >}}
 ![WRITE ALT TEXT](staying_ARTWORK.png)
 {{< /artlink >}}
@@ -39,6 +42,28 @@ This site is still being born, but in the meantime, you can check out some image
 {{< /artcaption >}}
 {{< /artfigure >}}
 
+{{< artfigure id=leaving-records style=wide >}}
+{{< artlink html=true imgSrc=bread.mov.gif >}}
+{{< gif alt=animation imgSrc=bread.mov.gif >}}
+{{< /artlink >}}
+{{< artlink html=true imgSrc=venn_field.mov.gif >}}
+{{< gif alt=animation imgSrc=venn_field.mov.gif >}}
+{{< /artlink >}}
+{{< artlink html=true imgSrc=shopping.mov.gif >}}
+{{< gif alt=animation imgSrc=shopping.mov.gif >}}
+{{< /artlink >}}
+{{< artlink html=true imgSrc=lr-spinosc.gif >}}
+{{< gif alt=animation imgSrc=lr-spinosc.gif >}}
+{{< /artlink >}}
+{{< artlink html=true imgSrc=lr-warp.gif >}}
+{{< gif alt=animation imgSrc=lr-warp.gif >}}
+{{< /artlink >}}
+{{< artcaption >}}
+**PROJECT:** Web & animation for leavingrecords ([website](leavingrecords.com))
+
+**CONTRIBUTORS:** [andrew c. shike](https://and-cs.co)
+{{< /artcaption >}}
+{{< /artfigure >}}
 
 {{< artfigure id=aisha-vaughan >}}
 {{< artlink imgSrc=AV_digital.png >}}
@@ -63,27 +88,23 @@ This site is still being born, but in the meantime, you can check out some image
 {{< /artcaption >}}
 {{< /artfigure >}}
 
-
-{{< artfigure id=leaving-records >}}
-{{< artlink imgSrc=lr-feature.png >}}
-![WRITE ALT TEXT](lr-feature.png)
+{{< artfigure id=aips style=wide >}}
+{{< artlink html=true imgSrc=aips.mov.gif >}}
+{{< gif alt=animation imgSrc=aips.mov.gif >}}
 {{< /artlink >}}
-{{< artlink imgSrc=lr-home.png >}}
-![WRITE ALT TEXT](lr-home.png)
+{{< artlink imgSrc=aips-about.png >}}
+![WRITE ALT TEXT](aips-about.png)
 {{< /artlink >}}
-{{< artlink imgSrc=lr-spinosc.gif >}}
-![WRITE ALT TEXT](lr-spinosc.gif)
-{{< /artlink >}}
-{{< artlink imgSrc=lr-warp.gif >}}
-![WRITE ALT TEXT](lr-warp.gif)
+{{< artlink html=true imgSrc=aips-map.mov.gif >}}
+{{< gif alt=animation imgSrc=aips-map.mov.gif >}}
 {{< /artlink >}}
 {{< artcaption >}}
-**PROJECT:** Web & animation for leavingrecords ([website](leavingrecords.com))
+**PROJECT:** Web design, UX, dev for Artists in Public Schools ([link](https://cpslives.org))
 
-**CONTRIBUTORS:** [andrew c. shike](https://and-cs.co)
+**CONTRIBUTORS:** [Nick Rissmeyer](https://nickrissmeyer.com/), [Emily Gorski](http://emilygorski.com/), [andrew c. shike](https://and-cs.co)
 {{< /artcaption >}}
-{{< /artfigure >}}
 
+{{< /artfigure >}}
 {{< artfigure id=julius-smack-serenity >}}
 {{< artlink imgSrc=serenity_artwork.png >}}
 ![WRITE ALT TEXT](serenity_artwork.png)
@@ -124,6 +145,17 @@ This site is still being born, but in the meantime, you can check out some image
 {{< /artcaption >}}
 {{< /artfigure >}}
 
+{{< artfigure id=rcps style=wide >}}
+{{< artlink html=true imgSrc=rcps.mov.gif >}}
+{{< gif alt=animation imgSrc=rcps.mov.gif >}}
+{{< /artlink >}}
+{{< artcaption >}}
+**PROJECT:** Web design, UX, dev for online exhibition "(Re)visions of Chicago Public Schools" ([link](https://andr-ew.github.io/rcps/))
+
+**CONTRIBUTORS:** [andrew c. shike](https://and-cs.co)
+{{< /artcaption >}}
+{{< /artfigure >}}
+
 {{< artfigure id=md-uncleared >}}
 {{< artlink imgSrc=uncleared_LP.jpeg >}}
 ![WRITE ALT TEXT](uncleared_LP.jpeg)
@@ -161,6 +193,16 @@ This site is still being born, but in the meantime, you can check out some image
 {{< /artcaption >}}
 {{< /artfigure >}}
 
+{{< artfigure id=al style=wide >}}
+{{< artlink html=true imgSrc=al2.mov.gif >}}
+{{< gif alt=animation imgSrc=al2.mov.gif >}}
+{{< /artlink >}}
+{{< artcaption >}}
+**PROJECT:** Web design, dev for Adam Levite ([link](https://adamlevite.netlify.app))
+
+**CONTRIBUTORS:** [andrew c. shike](https://and-cs.co)
+{{< /artcaption >}}
+{{< /artfigure >}}
 
 {{< artfigure id=ambient-church >}}
 {{< artlink imgSrc=DS_logo_bg_dark.png >}}
@@ -236,7 +278,6 @@ This site is still being born, but in the meantime, you can check out some image
 {{< /artcaption >}}
 {{< /artfigure >}}
 
-
 {{< artfigure id=ry-x-2 >}}
 {{< artlink imgSrc=ryx_2_pack.png >}}
 ![WRITE ALT TEXT](ryx_2_pack.png)
@@ -253,19 +294,3 @@ This site is still being born, but in the meantime, you can check out some image
 **CONTRIBUTORS:** [andrew c. shike](https://and-cs.co)
 {{< /artcaption >}}
 {{< /artfigure >}}
-
-{{< artfigure id=cps-lives >}}
-{{< artlink imgSrc=cpsl_web.png >}}
-![WRITE ALT TEXT](cpsl_web.png)
-{{< /artlink >}}
-{{< artlink imgSrc=cpsl_web_2.png >}}
-![WRITE ALT TEXT](cpsl_web_2.png)
-{{< /artlink >}}
-{{< artcaption >}}
-**PROJECT:** Website for CPS Lives ([link](https://cpslives.org))
-
-**CONTRIBUTORS:** [Nick Rissmeyer](https://nickrissmeyer.com/), [Emily Gorski](http://emilygorski.com/), [andrew c. shike](https://and-cs.co)
-{{< /artcaption >}}
-{{< /artfigure >}}
-
-
