@@ -19,6 +19,29 @@ This site is still being born, but in the meantime, you can check out some image
 
 **-&&**
 
+{{< artfigure id=soulcenter style=wide >}}
+{{< artlink imgSrc=sc2.png >}}
+![WRITE ALT TEXT](sc2.png)
+{{< /artlink >}}
+{{< artlink imgSrc=sc1.png >}}
+![WRITE ALT TEXT](sc1.png)
+{{< /artlink >}}
+{{< artlink imgSrc=sc5.png >}}
+![WRITE ALT TEXT](sc5.png)
+{{< /artlink >}}
+{{< artlink imgSrc=sc3.png >}}
+![WRITE ALT TEXT](sc3.png)
+{{< /artlink >}}
+{{< artlink imgSrc=sc4.png >}}
+![WRITE ALT TEXT](sc4.png)
+{{< /artlink >}}
+{{< artcaption >}}
+**PROJECT:** Branding + Web for Soul–Center (WIP)
+
+**CONTRIBUTORS:** [and c. shike](https://and-cs.co)
+{{< /artcaption >}}
+{{< /artfigure >}}
+
 {{< artfigure id=staying >}}
 {{< artlink imgSrc=staying_gifffy.gif html=true >}}
 {{< gif imgSrc=staying_gifffy.gif imgAlt="animation of fields and leaves and record and tape" >}}
