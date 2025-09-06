@@ -9,7 +9,7 @@ image:
     formats: [webp, original]
 ---
 
-Studio Ampersands is the independent design practice of [andrew c. shike](https://and-cs.co) – focused on [visual design](#pulse), [UX](#aips), [code](#leaving-records), and [illustration](#julius-smack-serenity).
+Studio Ampersands is the independent design practice of [and c. shike](https://and-cs.co) – focused on [visual design](#pulse), [UX](#aips), [code](#leaving-records), and [illustration](#julius-smack-serenity).
 
 I like working on [brands](#ambient-church), [websites](#leaving-records), [generative animation](#staying), [music campaigns](#aisha-vaughan), editorial illustrations, or anything I've never done before. Currently based in Chicago.
 
@@ -38,7 +38,7 @@ This site is still being born, but in the meantime, you can check out some image
 {{< artcaption >}}
 **PROJECT:** AD & [music video](https://www.youtube.com/watch?v=djQhHlXM6SA) for leaving records "staying" compilation
 
-**CONTRIBUTORS:** [andrew c. shike](https://and-cs.co) (graphics) [erran franklin](instagram.com/errenfranklinfilms) (8mm film)
+**CONTRIBUTORS:** [and c. shike](https://and-cs.co) (graphics) [erran franklin](instagram.com/errenfranklinfilms) (8mm film)
 {{< /artcaption >}}
 {{< /artfigure >}}
 
@@ -61,7 +61,7 @@ This site is still being born, but in the meantime, you can check out some image
 {{< artcaption >}}
 **PROJECT:** Web & animation for leavingrecords ([website](leavingrecords.com))
 
-**CONTRIBUTORS:** [andrew c. shike](https://and-cs.co)
+**CONTRIBUTORS:** [and c. shike](https://and-cs.co)
 {{< /artcaption >}}
 {{< /artfigure >}}
 
@@ -84,7 +84,7 @@ This site is still being born, but in the meantime, you can check out some image
 {{< artcaption >}}
 **PROJECT:** Art direction for Aisha Vaughan _"The Gate"_
 
-**CONTRIBUTORS:** [andrew c. shike](https://and-cs.co) (photography by Max Blomfield)
+**CONTRIBUTORS:** [and c. shike](https://and-cs.co) (photography by Max Blomfield)
 {{< /artcaption >}}
 {{< /artfigure >}}
 
@@ -101,7 +101,7 @@ This site is still being born, but in the meantime, you can check out some image
 {{< artcaption >}}
 **PROJECT:** Web design, UX, dev for Artists in Public Schools ([link](https://cpslives.org))
 
-**CONTRIBUTORS:** [Nick Rissmeyer](https://nickrissmeyer.com/), [Emily Gorski](http://emilygorski.com/), [andrew c. shike](https://and-cs.co)
+**CONTRIBUTORS:** [Nick Rissmeyer](https://nickrissmeyer.com/), [Emily Gorski](http://emilygorski.com/), [and c. shike](https://and-cs.co)
 {{< /artcaption >}}
 
 {{< /artfigure >}}
@@ -118,7 +118,7 @@ This site is still being born, but in the meantime, you can check out some image
 {{< artcaption >}}
 **PROJECT:** Illustration, AD, and poster for Julius Smack _"Serenity"_
 
-**CONTRIBUTORS:** [andrew c. shike](https://and-cs.co)
+**CONTRIBUTORS:** [and c. shike](https://and-cs.co)
 {{< /artcaption >}}
 {{< /artfigure >}}
 
@@ -141,7 +141,7 @@ This site is still being born, but in the meantime, you can check out some image
 {{< artcaption >}}
 **PROJECT:** Art direction for The Growth Eternal _"Live at Susan's"_
 
-**CONTRIBUTORS:** [andrew c. shike](https://and-cs.co). photography: friends
+**CONTRIBUTORS:** [and c. shike](https://and-cs.co). photography: friends
 {{< /artcaption >}}
 {{< /artfigure >}}
 
@@ -152,7 +152,7 @@ This site is still being born, but in the meantime, you can check out some image
 {{< artcaption >}}
 **PROJECT:** Web design, UX, dev for online exhibition "(Re)visions of Chicago Public Schools" ([link](https://andr-ew.github.io/rcps/))
 
-**CONTRIBUTORS:** [andrew c. shike](https://and-cs.co)
+**CONTRIBUTORS:** [and c. shike](https://and-cs.co)
 {{< /artcaption >}}
 {{< /artfigure >}}
 
@@ -169,7 +169,7 @@ This site is still being born, but in the meantime, you can check out some image
 {{< artcaption >}}
 **PROJECT:** Art direction for Matthewdavid _"Uncleared"_
 
-**CONTRIBUTORS:** [andrew c. shike](https://and-cs.co). illustration: BlissArmyKnife
+**CONTRIBUTORS:** [and c. shike](https://and-cs.co). illustration: BlissArmyKnife
 {{< /artcaption >}}
 {{< /artfigure >}}
 
@@ -189,7 +189,7 @@ This site is still being born, but in the meantime, you can check out some image
 {{< artcaption >}}
 **PROJECT:** Art direction for Qur'an Shaheed _"Pulse"_
 
-**CONTRIBUTORS:** [andrew c. shike](https://and-cs.co), artwork by Frank Dorrey
+**CONTRIBUTORS:** [and c. shike](https://and-cs.co), artwork by Frank Dorrey
 {{< /artcaption >}}
 {{< /artfigure >}}
 
@@ -200,7 +200,7 @@ This site is still being born, but in the meantime, you can check out some image
 {{< artcaption >}}
 **PROJECT:** Web design, dev for Adam Levite ([link](https://adamlevite.netlify.app))
 
-**CONTRIBUTORS:** [andrew c. shike](https://and-cs.co)
+**CONTRIBUTORS:** [and c. shike](https://and-cs.co)
 {{< /artcaption >}}
 {{< /artfigure >}}
 
@@ -217,10 +217,10 @@ This site is still being born, but in the meantime, you can check out some image
 {{< artcaption >}}
 **PROJECT:** Wordmark + posters commissioned by [ambient church](https://ambient.church)
 
-**CONTRIBUTORS:** [andrew c. shike](https://and-cs.co)
+**CONTRIBUTORS:** [and c. shike](https://and-cs.co)
 {{< /artcaption >}}
 {{< /artfigure >}}
-{{< artfigure id=andrew-cs-cip >}}
+{{< artfigure id=and-cs-cip >}}
 {{< artlink imgSrc=cip_01.png >}}
 ![WRITE ALT TEXT](cip_01.png)
 {{< /artlink >}}
@@ -257,7 +257,7 @@ This site is still being born, but in the meantime, you can check out some image
 {{< artcaption >}}
 **PROJECT:** Artwork, AD, & posters for Andrew CS _"caught in pointers"_
 
-**CONTRIBUTORS:** [andrew c. shike](https://and-cs.co)
+**CONTRIBUTORS:** [and c. shike](https://and-cs.co)
 {{< /artcaption >}}
 {{< /artfigure >}}
 
@@ -274,7 +274,7 @@ This site is still being born, but in the meantime, you can check out some image
 {{< artcaption >}}
 **PROJECT:** Identity concept (1/2) commissioned by Ry X
 
-**CONTRIBUTORS:** [andrew c. shike](https://and-cs.co)
+**CONTRIBUTORS:** [and c. shike](https://and-cs.co)
 {{< /artcaption >}}
 {{< /artfigure >}}
 
@@ -291,6 +291,6 @@ This site is still being born, but in the meantime, you can check out some image
 {{< artcaption >}}
 **PROJECT:** Identity concept (2/2) commissioned by Ry X
 
-**CONTRIBUTORS:** [andrew c. shike](https://and-cs.co)
+**CONTRIBUTORS:** [and c. shike](https://and-cs.co)
 {{< /artcaption >}}
 {{< /artfigure >}}
