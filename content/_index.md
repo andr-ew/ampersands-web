@@ -82,7 +82,7 @@ This site is still being born, but in the meantime, you can check out some image
 {{< gif alt=animation imgSrc=lr-warp.gif >}}
 {{< /artlink >}}
 {{< artcaption >}}
-**PROJECT:** Web & animation for leavingrecords ([website](leavingrecords.com))
+**PROJECT:** Web & animation for leavingrecords ([website](https://leavingrecords.com))
 
 **CONTRIBUTORS:** [and c. shike](https://and-cs.co)
 {{< /artcaption >}}
