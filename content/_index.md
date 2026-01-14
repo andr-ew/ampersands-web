@@ -20,23 +20,17 @@ This site is still being born, but in the meantime, you can check out some image
 **-&&**
 
 {{< artfigure id=soulcenter style=wide >}}
-{{< artlink imgSrc=sc2.png >}}
-![WRITE ALT TEXT](sc2.png)
+{{< artlink imgSrc=sc-home-x2.mov.gif html=true >}}
+{{< gif imgSrc=sc-home-x2.mov.gif imgAlt="animation of colorful spiral rotating behind the text holistic, in-depth, psychotherapy" >}}
 {{< /artlink >}}
-{{< artlink imgSrc=sc1.png >}}
-![WRITE ALT TEXT](sc1.png)
+{{< artlink imgSrc=sc-about.png >}}
+![website showing flower and woman smiling](sc-about.png)
 {{< /artlink >}}
-{{< artlink imgSrc=sc5.png >}}
-![WRITE ALT TEXT](sc5.png)
-{{< /artlink >}}
-{{< artlink imgSrc=sc3.png >}}
-![WRITE ALT TEXT](sc3.png)
-{{< /artlink >}}
-{{< artlink imgSrc=sc4.png >}}
-![WRITE ALT TEXT](sc4.png)
+{{< artlink imgSrc=sc-butterfly.mov.gif html=true >}}
+{{< gif imgSrc=sc-butterfly.mov.gif imgAlt="animated website showing butterfly & info about psychotherapy services" >}}
 {{< /artlink >}}
 {{< artcaption >}}
-**PROJECT:** Branding + Web for Soul–Center (WIP)
+**PROJECT:** Branding, Web design, Web development for Soul–Center ([link](https://soulcenter-web.netlify.app/) - w.i.p.)
 
 **CONTRIBUTORS:** [and c. shike](https://and-cs.co)
 {{< /artcaption >}}
@@ -221,7 +215,7 @@ This site is still being born, but in the meantime, you can check out some image
 {{< gif alt=animation imgSrc=al2.mov.gif >}}
 {{< /artlink >}}
 {{< artcaption >}}
-**PROJECT:** Web design, dev for Adam Levite ([link](https://adamlevite.netlify.app))
+**PROJECT:** Web design, dev for Adam Levite ([link](https://adamlevite.netlify.app) - w.i.p.)
 
 **CONTRIBUTORS:** [and c. shike](https://and-cs.co)
 {{< /artcaption >}}
@@ -243,6 +237,22 @@ This site is still being born, but in the meantime, you can check out some image
 **CONTRIBUTORS:** [and c. shike](https://and-cs.co)
 {{< /artcaption >}}
 {{< /artfigure >}}
+
+{{< artfigure id=august style=wide >}}
+{{< artlink imgSrc=aug-cart.png >}}
+![website showing shopping cart and graphics](aug-cart.png)
+{{< /artlink >}}
+{{< artlink imgSrc=aug-home.png >}}
+![website showing products like shirts and posters](aug-home.png)
+{{< /artlink >}}
+{{< artcaption >}}
+**PROJECT:** E-commerce Web development for August Foreman ([link](https://shop-aug-services-dev-git-dev-andr-ew.vercel.app/) - w.i.p.)
+
+**CONTRIBUTORS:** development: [and c. shike](https://and-cs.co), design: August Foreman
+{{< /artcaption >}}
+{{< /artfigure >}}
+
+
 {{< artfigure id=and-cs-cip >}}
 {{< artlink imgSrc=cip_01.png >}}
 ![WRITE ALT TEXT](cip_01.png)
