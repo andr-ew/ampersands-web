@@ -294,7 +294,18 @@ This site is still being born, but in the meantime, you can check out some image
 {{< /artcaption >}}
 {{< /artfigure >}}
 
-{{< artfigure id=ry-x-1 >}}
+{{< artfigure id=ry-x-1 style=wide >}}
+{{< artlink html=true imgSrc=ry-x-motion-x2.mov.gif >}}
+{{< gif alt=swirly_light_animation imgSrc=ry-x-motion-x2.mov.gif >}}
+{{< /artlink >}}
+{{< artcaption >}}
+**PROJECT:** Web-based motion concept commissioned by Ry X ([link - night](https://andr-ew.github.io/ry-x-fluid-handoff/night), [link - day](https://andr-ew.github.io/ry-x-fluid-handoff/day) – [cancelled])
+
+**CONTRIBUTORS:** [and c. shike](https://and-cs.co)
+{{< /artcaption >}}
+{{< /artfigure >}}
+
+{{< artfigure id=ry-x-2 >}}
 {{< artlink imgSrc=ryx_1_logo_dark.png >}}
 ![WRITE ALT TEXT](ryx_1_logo_dark.png)
 {{< /artlink >}}
@@ -304,14 +315,6 @@ This site is still being born, but in the meantime, you can check out some image
 {{< artlink imgSrc=ryx_1_web.png >}}
 ![WRITE ALT TEXT](ryx_1_web.png)
 {{< /artlink >}}
-{{< artcaption >}}
-**PROJECT:** Identity concept (1/2) commissioned by Ry X
-
-**CONTRIBUTORS:** [and c. shike](https://and-cs.co)
-{{< /artcaption >}}
-{{< /artfigure >}}
-
-{{< artfigure id=ry-x-2 >}}
 {{< artlink imgSrc=ryx_2_pack.png >}}
 ![WRITE ALT TEXT](ryx_2_pack.png)
 {{< /artlink >}}
@@ -322,7 +325,7 @@ This site is still being born, but in the meantime, you can check out some image
 ![WRITE ALT TEXT](ryx_2_poster.png)
 {{< /artlink >}}
 {{< artcaption >}}
-**PROJECT:** Identity concept (2/2) commissioned by Ry X
+**PROJECT:** Identity concepts commissioned by Ry X [cancelled]
 
 **CONTRIBUTORS:** [and c. shike](https://and-cs.co)
 {{< /artcaption >}}
