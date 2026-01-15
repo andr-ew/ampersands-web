@@ -11,7 +11,7 @@ image:
 
 Studio Ampersands is the independent design practice of [and c. shike](https://and-cs.co) – focused on [visual design](#pulse), [UX](#aips), [code](#leaving-records), and [illustration](#julius-smack-serenity).
 
-I like working on [brands](#ambient-church), [websites](#leaving-records), [generative animation](#staying), [music campaigns](#aisha-vaughan), editorial illustrations, or anything I've never done before. Currently based in Chicago.
+I like working on [brands](#ambient-church), [websites](#leaving-records), [generative animation](#staying), [music campaigns](#aisha-vaughan), editorial illustrations, or anything I've never done before. Currently based in Los Angeles & Tennessee.
 
 Get in touch at [hi@ampersands.space](mailto:hi@ampersands.space)
 
