@@ -246,12 +246,11 @@ This site is still being born, but in the meantime, you can check out some image
 ![website showing products like shirts and posters](aug-home.png)
 {{< /artlink >}}
 {{< artcaption >}}
-**PROJECT:** E-commerce Web development for August Foreman ([link](https://shop-aug-services-dev-git-dev-andr-ew.vercel.app/) - w.i.p.)
+**PROJECT:** E-commerce Web development for August Foreman ([link](https://shop-aug-services-dev-mha6-git-dev-andrews-projects-addc8266.vercel.app/) - w.i.p.)
 
 **CONTRIBUTORS:** development: [and c. shike](https://and-cs.co), design: August Foreman
 {{< /artcaption >}}
 {{< /artfigure >}}
-
 
 {{< artfigure id=and-cs-cip >}}
 {{< artlink imgSrc=cip_01.png >}}
