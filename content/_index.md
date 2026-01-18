@@ -20,8 +20,8 @@ This site is still being born, but in the meantime, you can check out some image
 **-&&**
 
 {{< artfigure id=soulcenter style=wide >}}
-{{< artlink imgSrc=sc-home-x2.mov.gif html=true >}}
-{{< gif imgSrc=sc-home-x2.mov.gif imgAlt="animation of colorful spiral rotating behind the text holistic, in-depth, psychotherapy" >}}
+{{< artlink imgSrc=sc-home-2-x2.mov.gif html=true >}}
+{{< gif imgSrc=sc-home-2-x2.mov.gif imgAlt="website animation of colorful spiral rotating behind the text holistic, in-depth, psychotherapy" >}}
 {{< /artlink >}}
 {{< artlink imgSrc=sc-about.png >}}
 ![website showing flower and woman smiling](sc-about.png)
