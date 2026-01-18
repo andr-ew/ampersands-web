@@ -8,6 +8,13 @@ path = "github.com/future-wd/hugo-responsive-images"
 
 [params.image]
 renderHook = true
+resample_filter = "Lanczos"
+quality = 100
+
+[imaging]
+resampleFilter = "Lanczos"
+quality = 100
+
 
 [markup.goldmark.renderer]
 unsafe = true

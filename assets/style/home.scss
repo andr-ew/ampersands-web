@@ -71,7 +71,8 @@
 
     .contentContainer {
         > p {
-            max-width: $main-width-desktop;
+            // max-width: $main-width-desktop;
+            max-width: 50ch;
             margin: auto;
         }
 

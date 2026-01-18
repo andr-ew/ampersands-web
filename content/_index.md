@@ -6,10 +6,12 @@ image:
     render_hook: True
     widths: [600, 720, 900, 1300, 1440]
     sizes: '(max-width: 1050px) 100vw, 1000px'
-    formats: [webp, original]
+    #formats: [webp, original]
+    resampleFilter: Lanczos
+    quality: 100
 ---
 
-Studio Ampersands is the independent design practice of [and c. shike](https://and-cs.co) – focused on [visual design](#pulse), [UX](#aips), [code](#leaving-records), and [illustration](#julius-smack-serenity).
+Studio Ampersands is the independent design practice of <br>[and c. shike](https://and-cs.co) – focused on [visual design](#pulse), [UX](#aips), [code](#leaving-records), and [illustration](#julius-smack-serenity).
 
 I like working on [brands](#ambient-church), [websites](#leaving-records), [generative animation](#staying), [music campaigns](#aisha-vaughan), editorial illustrations, or anything I've never done before. Currently based in Los Angeles & Tennessee.
 
@@ -37,23 +39,20 @@ This site is still being born, but in the meantime, you can check out some image
 {{< /artfigure >}}
 
 {{< artfigure id=staying >}}
+{{< artlink imgSrc=staying_photo-LP.png >}}
+![a yellow record in the sun](staying_photo-LP.png)
+{{< /artlink >}}
 {{< artlink imgSrc=staying_gifffy.gif html=true >}}
 {{< gif imgSrc=staying_gifffy.gif imgAlt="animation of fields and leaves and record and tape" >}}
+{{< /artlink >}}
+{{< artlink imgSrc=staying_photo-tape-held.png >}}
+![a yellow tripple tape backage in the sun with plants](staying_photo-tape-held.png)
 {{< /artlink >}}
 {{< artlink imgSrc=staying_ARTWORK.png >}}
 ![WRITE ALT TEXT](staying_ARTWORK.png)
 {{< /artlink >}}
-{{< artlink imgSrc=staying_Frame79.png >}}
-![WRITE ALT TEXT](staying_Frame79.png)
-{{< /artlink >}}
-{{< artlink imgSrc=staying_Frame83.png >}}
-![WRITE ALT TEXT](staying_Frame83.png)
-{{< /artlink >}}
-{{< artlink imgSrc=staying_Frame77.png >}}
-![WRITE ALT TEXT](staying_Frame77.png)
-{{< /artlink >}}
 {{< artcaption >}}
-**PROJECT:** AD & [music video](https://www.youtube.com/watch?v=djQhHlXM6SA) for leaving records "staying" compilation
+**PROJECT:** A.D. & [music video](https://www.youtube.com/watch?v=djQhHlXM6SA) for leaving records "staying" compilation
 
 **CONTRIBUTORS:** [and c. shike](https://and-cs.co) (graphics) [erran franklin](instagram.com/errenfranklinfilms) (8mm film)
 {{< /artcaption >}}
@@ -83,20 +82,17 @@ This site is still being born, but in the meantime, you can check out some image
 {{< /artfigure >}}
 
 {{< artfigure id=aisha-vaughan >}}
+{{< artlink imgSrc=aisha_photo-tape-cover.png >}}
+![a very blue cassette tape](aisha_photo-tape-cover.png)
+{{< /artlink >}}
 {{< artlink imgSrc=AV_digital.png >}}
 ![WRITE ALT TEXT](AV_digital.png)
 {{< /artlink >}}
-{{< artlink imgSrc=AV_front.png >}}
-![WRITE ALT TEXT](AV_front.png)
+{{< artlink imgSrc=aisha_photo-held.png >}}
+![hands holding a blue record among plants](aisha_photo-held.png)
 {{< /artlink >}}
-{{< artlink imgSrc=AV_LP.png >}}
-![WRITE ALT TEXT](AV_LP.png)
-{{< /artlink >}}
-{{< artlink imgSrc=AV_back.png >}}
-![WRITE ALT TEXT](AV_back.png)
-{{< /artlink >}}
-{{< artlink imgSrc=AV_spine.png >}}
-![WRITE ALT TEXT](AV_spine.png)
+{{< artlink imgSrc=aisha_photo-tape-back.png >}}
+![a very blue cassette tape](aisha_photo-tape-back.png)
 {{< /artlink >}}
 {{< artcaption >}}
 **PROJECT:** Art direction for Aisha Vaughan _"The Gate"_
@@ -139,12 +135,43 @@ This site is still being born, but in the meantime, you can check out some image
 {{< /artcaption >}}
 {{< /artfigure >}}
 
-{{< artfigure id=TGE-live-at-suans >}}
-{{< artlink imgSrc=TGE_susans_back.png >}}
-![WRITE ALT TEXT](TGE_susans_back.png)
+{{< artfigure id=pulse >}}
+{{< artlink imgSrc=quran_photo-back.png >}}
+![WRITE ALT TEXT](quran_photo-back.png)
 {{< /artlink >}}
+{{< artlink imgSrc=quran_photo-cover.png >}}
+![write alt text](quran_photo-cover.png)
+{{< /artlink >}}
+{{< artlink imgSrc=QS_Frame59.png >}}
+![WRITE ALT TEXT](QS_Frame59.png)
+{{< /artlink >}}
+{{< artlink imgSrc=QS_Frame56.png >}}
+![WRITE ALT TEXT](QS_Frame56.png)
+{{< /artlink >}}
+{{< artcaption >}}
+**PROJECT:** Art direction for Qur'an Shaheed _"Pulse"_
+
+**CONTRIBUTORS:** [and c. shike](https://and-cs.co), artwork by Frank Dorrey
+{{< /artcaption >}}
+{{< /artfigure >}}
+
+{{< artfigure id=rcps style=wide >}}
+{{< artlink html=true imgSrc=rcps.mov.gif >}}
+{{< gif alt=animation imgSrc=rcps.mov.gif >}}
+{{< /artlink >}}
+{{< artcaption >}}
+**PROJECT:** Web design, UX, dev for online exhibition "(Re)visions of Chicago Public Schools" ([link](https://andr-ew.github.io/rcps/))
+
+**CONTRIBUTORS:** [and c. shike](https://and-cs.co)
+{{< /artcaption >}}
+{{< /artfigure >}}
+
+{{< artfigure id=TGE-live-at-suans >}}
 {{< artlink imgSrc=TGE_susans_inside.png >}}
 ![WRITE ALT TEXT](TGE_susans_inside.png)
+{{< /artlink >}}
+{{< artlink imgSrc=TGE_susans_back.png >}}
+![WRITE ALT TEXT](TGE_susans_back.png)
 {{< /artlink >}}
 {{< artlink imgSrc=TGE_susans_spine.png >}}
 ![WRITE ALT TEXT](TGE_susans_spine.png)
@@ -162,20 +189,9 @@ This site is still being born, but in the meantime, you can check out some image
 {{< /artcaption >}}
 {{< /artfigure >}}
 
-{{< artfigure id=rcps style=wide >}}
-{{< artlink html=true imgSrc=rcps.mov.gif >}}
-{{< gif alt=animation imgSrc=rcps.mov.gif >}}
-{{< /artlink >}}
-{{< artcaption >}}
-**PROJECT:** Web design, UX, dev for online exhibition "(Re)visions of Chicago Public Schools" ([link](https://andr-ew.github.io/rcps/))
-
-**CONTRIBUTORS:** [and c. shike](https://and-cs.co)
-{{< /artcaption >}}
-{{< /artfigure >}}
-
 {{< artfigure id=md-uncleared >}}
-{{< artlink imgSrc=uncleared_LP.jpeg >}}
-![WRITE ALT TEXT](uncleared_LP.jpeg)
+{{< artlink imgSrc=uncleared_photo-vinyl.png >}}
+![WRITE ALT TEXT](uncleared_photo-vinyl.png)
 {{< /artlink >}}
 {{< artlink imgSrc=uncleared_CS.jpeg >}}
 ![WRITE ALT TEXT](uncleared_CS.jpeg)
@@ -187,26 +203,6 @@ This site is still being born, but in the meantime, you can check out some image
 **PROJECT:** Art direction for Matthewdavid _"Uncleared"_
 
 **CONTRIBUTORS:** [and c. shike](https://and-cs.co). illustration: BlissArmyKnife
-{{< /artcaption >}}
-{{< /artfigure >}}
-
-{{< artfigure id=pulse >}}
-{{< artlink imgSrc=QS_Frame50.png >}}
-![WRITE ALT TEXT](QS_Frame50.png)
-{{< /artlink >}}
-{{< artlink imgSrc=QS_Frame63.png >}}
-![WRITE ALT TEXT](QS_Frame63.png)
-{{< /artlink >}}
-{{< artlink imgSrc=QS_Frame59.png >}}
-![WRITE ALT TEXT](QS_Frame59.png)
-{{< /artlink >}}
-{{< artlink imgSrc=QS_Frame56.png >}}
-![WRITE ALT TEXT](QS_Frame56.png)
-{{< /artlink >}}
-{{< artcaption >}}
-**PROJECT:** Art direction for Qur'an Shaheed _"Pulse"_
-
-**CONTRIBUTORS:** [and c. shike](https://and-cs.co), artwork by Frank Dorrey
 {{< /artcaption >}}
 {{< /artfigure >}}
 
